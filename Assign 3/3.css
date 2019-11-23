@@ -1,0 +1,13 @@
+
+.col-sm-3{
+	height:100px;
+	width:80%;
+	
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+	margin:10px;
+    color: white;
+}
+

@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm-1{
+color: white;
+background-color: navy;
+margin: auto;
+border: 1px solid white;
+}
+.col-sm-3{
+color: white;
+background-color: purple;
+margin: auto;
+border: 1px solid white;
+}
+.col-sm-4{
+color: white;
+background-color: darkcyan;
+margin: auto;
+border: 1px solid white;
+}
+.col-sm-6{
+color: white;
+background-color: yellowgreen;
+margin: auto;
+border: 1px solid white;
+}
+.col-sm-8{
+color: white;
+background-color: salmon;
+margin: auto;
+border: 1px solid white;
+}
+.col-sm-12{
+color: white;
+background-color: green;
+margin: auto;
+border: 1px solid white;
+}

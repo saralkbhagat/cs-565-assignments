@@ -1,0 +1,30 @@
+.col-lg-12{
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.col-lg-11{
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.col-lg-1{
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.box1{
+    height: 50px;
+}
+.box2{
+    height: 300px;
+}
+.box3{
+    height: 300px;
+}
