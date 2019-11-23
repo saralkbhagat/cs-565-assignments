@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="2.css">
+<body class="b">
+  <div class="mail">
+
+  
+  <form class="f" name="form1" action="#">
+    <h1>Contact Us</h1>
+  <div class="boxx">
+  First name:
+  <input  type="text" name="firstname"><br>
+   </div>
+     <div class="boxx">
+  Last name:
+  <input type="text" name="lastname"><br>
+   </div>
+    <div class="boxx">
+   Email:
+  <input type="text"  name='text1'><br>
+    </div> 
+    <div class="boxx">
+    <input type="radio" name="gender" value="Undergraduate Student"> Undergraduate Student<br>
+  <input type="radio" name="gender" value="Graduate Student"> Graduate Student<br>
+   </div>
+    
+<input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/>
+      
+    
+   <input type="reset" value="Reset">
+      
+</form>
+  
+</div>
+<script src="email-validation.js"></script>
+</body>
+</html>

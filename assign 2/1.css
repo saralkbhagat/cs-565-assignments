@@ -1,0 +1,66 @@
+#c {
+  float:clear;
+  background-color:red;
+}
+#a {
+  position:fixed;
+  float:left;
+  top:0px;
+  width:100%;
+  background-color:black;
+}
+#g {
+  background-color:green;
+}
+#p {
+  
+
+  
+  background-color:white;
+}
+body{
+
+  background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2017/07/leopard.jpg?quality=82&strip=all&w=1600")
+}
+img {
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+
+  float: left;
+  float:clear;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.container{
+  margin-top:100px;
+    width: 100%;
+    border: 3px solid white;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#box5{
+  displ:block;
+    height: 10px;
+    text-align: center;
+}
+#box5 p{
+    color: black;
+    text-align: left;
+    font-size: 50px;
+}
+#box5 a i{
+  height:100px;
+  width:auto;
+    color:green;
+    text-decoration: none;
+}
+#box5 a i:hover{
+    color: white;
+}
+input:{background-color: green;}
