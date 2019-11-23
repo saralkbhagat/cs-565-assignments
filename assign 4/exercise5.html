@@ -1,0 +1,22 @@
+
+<html >
+<head>
+
+  <title>Document</title>
+  <script>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+    function changecolor() {
+      let r = getRandomInt(256);
+      let g = getRandomInt(256);
+      let b = getRandomInt(256);
+
+      document.getElementsByTagName("body")[0].style = `background-color: rgb(${r}, ${g}, ${b});`;
+    }
+  </script>
+</head>
+<body>
+  <input type="button" value="Change Color" onclick="changecolor();" />
+</body>
+</html>

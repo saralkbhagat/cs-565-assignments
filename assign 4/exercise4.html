@@ -1,0 +1,31 @@
+
+<html >
+  <head>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        //Set upon load
+        document.getElementById(
+          "h"
+        ).innerHTML = `Height: ${window.innerHeight}px`;
+        document.getElementById(
+          "w"
+        ).innerHTML = `Width: ${window.innerWidth}px`;
+        //Reset when window reloads
+        window.addEventListener("resize", event => {
+          document.getElementById(
+            "h"
+          ).innerHTML = `Height: ${window.innerHeight}px`;
+          document.getElementById(
+            "w"
+          ).innerHTML = `Width: ${window.innerWidth}px`;
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+    <div id="h"></div>
+    <div id="w"></div>
+  </body>
+</html>
