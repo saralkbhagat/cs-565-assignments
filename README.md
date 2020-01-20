@@ -29,9 +29,6 @@ I signed up for our Slack channel, verified installation of GIT, read the syllab
 
 ![second draft of Wikipedia](Assign6/a2ex2.png)
 
-**Exercise 3** - Copied previous assignment’s exercise 3 and added CSS style to the elements.
-
-![second draft of portfolio](Assign6/a2ex3.png)
 
 ## Assignment 3 - CSS Layout and Bootstrap
 
